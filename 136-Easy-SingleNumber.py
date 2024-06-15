@@ -3,7 +3,6 @@ class Solution:
 
         # ---My Solution---:
         nums.sort()
-        print(nums)
 
         for i in range(0,len(nums),2):
             if i == len(nums)-1 or nums[i] != nums[i+1]:
